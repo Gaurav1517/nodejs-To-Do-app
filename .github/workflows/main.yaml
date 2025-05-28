@@ -5,11 +5,11 @@ on:
     branches: [main]
 
 jobs:
-  build-test-push:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source code
+      - name: Checkout source
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -20,8 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests (if any)
+      - name: Run tests 
         run: npm test || echo "No tests found"
+
+      - name: Debug secrets (for test only — REMOVE after use!)
+        run: |
+          echo "Username: ${{ secrets.DOCKERHUB_USERNAME }}"
+          echo "Token is set: ${{ secrets.DOCKERHUB_TOKEN != '' }}"
+
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
