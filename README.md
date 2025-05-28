@@ -20,7 +20,7 @@ This project demonstrates a full CI/CD pipeline that builds and deploys a Docker
   <a href="https://nodejs.org/en/docs/" target="_blank">
     <img src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="Node.js" width="80">
   </a>
-  
+
   <a href="https://git-scm.com" target="_blank">
     <img src="https://www.svgrepo.com/show/452210/git.svg" alt="Git" width="80">
   </a>
@@ -135,11 +135,11 @@ tar xzf ./actions-runner-linux-x64.tar.gz
 sudo ./svc.sh install
 sudo ./svc.sh start
 ```
-![runner-active](/snap/runner-active.png)
 
 > You can get the token from your GitHub repo:
 > `Settings > Actions > Runners > Add runner`
 
+![runner-active](/snap/runner-active.png)
 ![github-runner](/snap/github-runner.png)
 ---
 
