@@ -1,4 +1,4 @@
-# 🚀 Node.js CI/CD with GitHub Actions and EC2
+# 🚀 Deploy NodeJS application to AWS EC2 using GitHub Actions
 
 This project demonstrates a full CI/CD pipeline that builds and deploys a Dockerized Node.js application on an EC2 instance using GitHub Actions and Docker Hub.
 
@@ -13,24 +13,28 @@ This project demonstrates a full CI/CD pipeline that builds and deploys a Docker
 - AWS EC2 (Amazon Linux 2 or Ubuntu)
 - Self-hosted GitHub Actions Runner
 
-<a href="https://www.docker.com" target="_blank">
-    <img src="https://www.svgrepo.com/show/303231/docker-logo.svg" alt="Docker" width="80">
-  </a>
-
-  <a href="https://aws.amazon.com" target="_blank">
-    <img src="https://www.svgrepo.com/show/376356/aws.svg" alt="AWS" width="80">
-  </a>
-
   <a href="https://www.kernel.org" target="_blank">
     <img src="https://www.svgrepo.com/show/354004/linux-tux.svg" alt="Linux" width="80">
   </a>
-
+  
+  <a href="https://nodejs.org/en/docs/" target="_blank">
+    <img src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="Node.js" width="80">
+  </a>
+  
   <a href="https://git-scm.com" target="_blank">
     <img src="https://www.svgrepo.com/show/452210/git.svg" alt="Git" width="80">
   </a>
 
   <a href="https://github.com" target="_blank">
     <img src="https://www.svgrepo.com/show/475654/github-color.svg" alt="GitHub" width="80">
+  </a>
+
+  <a href="https://www.docker.com" target="_blank">
+    <img src="https://www.svgrepo.com/show/303231/docker-logo.svg" alt="Docker" width="80">
+  </a>
+
+  <a href="https://aws.amazon.com" target="_blank">
+    <img src="https://www.svgrepo.com/show/376356/aws.svg" alt="AWS" width="80">
   </a>
 
   <a href="https://github.com/features/actions" target="_blank">
@@ -41,12 +45,8 @@ This project demonstrates a full CI/CD pipeline that builds and deploys a Docker
     <img src="https://www.svgrepo.com/show/448268/aws-ec2.svg" alt="AWS EC2" width="80">
   </a>
 
-  <a href="https://nodejs.org/en/docs/" target="_blank">
-    <img src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="Node.js" width="80">
-  </a>
-
 ---
-    
+
 ## 📦 Prerequisites
 
 1. **Docker Hub Account**
