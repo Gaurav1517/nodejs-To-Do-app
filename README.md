@@ -216,6 +216,8 @@ jobs:
         run: docker run -d -p 3000:3000 --name nodejs-app-container ${{ secrets.DOCKERHUB_USERNAME }}/node-app:latest
 ```
 ![github-actions-pipeline](/snap/github-actions-pipeline.png)
+![docker-container](/snap/docker-container.png)
+![docker-hub-image](/snap/docker-hub-image.png)
 
 ## Access via browser
  <<http://Runner-IP:3000>>
